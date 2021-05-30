@@ -1,0 +1,15 @@
+<suite name="Regression_Testing_suite">
+	<test name="Regression_testing">
+		<groups>
+			<run>
+				<include name="Regression"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.testscript.cleartrip.TestClearTrip"/>
+			<class name="com.testscript.cleartrip.FlightTest"/>
+			
+		</classes>
+		
+	</test>
+	</suite>

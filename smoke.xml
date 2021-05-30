@@ -1,0 +1,13 @@
+<suite name="Smoke_Testing_suite">
+	<test name="Smoke_testing">
+		<groups>
+			<run>
+				<include name="Smoke"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.testscript.cleartrip.TestClearTrip"/>
+			
+		</classes>
+		</test>
+		</suite>
